@@ -8,7 +8,7 @@ on:
 
 env:
   OUTPUT_DIRECTORY: c:\myapp
-  SERVICE_NAME: Danilo-vidal
+  SERVICE_NAME: SampleWindowsServicesGHA.VAGRANT
   SERVICE_DIRECTORYNAME: C:\Services
   DOWNLOAD_DIRECTORY: C:\ServicesDownload
   
