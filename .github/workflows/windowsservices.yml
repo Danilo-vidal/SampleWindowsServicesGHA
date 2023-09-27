@@ -52,7 +52,7 @@ jobs:
         name:  windowsservices
         path: ${{ env.DOWNLOAD_DIRECTORY }}\${{ env.SERVICE_NAME }}
     - name: List Windows Services ${{ env.SERVICE_NAME }}
-      shell: pwsh
+      shell: powershell
       run: |
         Get-Service -Name ${{ env.SERVICE_NAME }}   
     - name: Stop Windows Services ${{ env.SERVICE_NAME }}
